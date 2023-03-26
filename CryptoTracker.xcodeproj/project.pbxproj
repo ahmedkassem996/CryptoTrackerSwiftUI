@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1055242029CADE2500A6D7E0 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055241F29CADE2500A6D7E0 /* CoinModel.swift */; };
+		10CEF70229D07BE300E54702 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF70129D07BE300E54702 /* HomeViewModel.swift */; };
 		10D0563029C8754A009CCF5D /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0562F29C8754A009CCF5D /* CryptoTrackerApp.swift */; };
 		10D0563229C8754A009CCF5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0563129C8754A009CCF5D /* ContentView.swift */; };
 		10D0563429C8754E009CCF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D0563329C8754E009CCF5D /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		1055241F29CADE2500A6D7E0 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		10CEF70129D07BE300E54702 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		10D0562C29C8754A009CCF5D /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D0562F29C8754A009CCF5D /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		10D0563129C8754A009CCF5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		10E928E629CA0AE0005E9005 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				10CEF70129D07BE300E54702 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F9E77129CF2DA6009FA83B /* CoinRowView.swift in Sources */,
+				10CEF70229D07BE300E54702 /* HomeViewModel.swift in Sources */,
 				10D0563229C8754A009CCF5D /* ContentView.swift in Sources */,
 				10E928E929CA0B01005E9005 /* HomeView.swift in Sources */,
 				10D0563029C8754A009CCF5D /* CryptoTrackerApp.swift in Sources */,
