@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1037226129DAAC8D00C12BF0 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1037226029DAAC8D00C12BF0 /* CoinDataService.swift */; };
 		1055242029CADE2500A6D7E0 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055241F29CADE2500A6D7E0 /* CoinModel.swift */; };
 		10CEF70229D07BE300E54702 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEF70129D07BE300E54702 /* HomeViewModel.swift */; };
 		10D0563029C8754A009CCF5D /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0562F29C8754A009CCF5D /* CryptoTrackerApp.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1037226029DAAC8D00C12BF0 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		1055241F29CADE2500A6D7E0 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		10CEF70129D07BE300E54702 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		10D0562C29C8754A009CCF5D /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1037225F29DAAC7100C12BF0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1037226029DAAC8D00C12BF0 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1055241E29CADE0A00A6D7E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +87,11 @@
 		10D0562E29C8754A009CCF5D /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
-				1055241E29CADE0A00A6D7E0 /* Models */,
 				10D0562F29C8754A009CCF5D /* CryptoTrackerApp.swift */,
 				10D0563129C8754A009CCF5D /* ContentView.swift */,
 				10D0563D29C87757009CCF5D /* Extensions */,
+				1037225F29DAAC7100C12BF0 /* Services */,
+				1055241E29CADE0A00A6D7E0 /* Models */,
 				10E928E429CA0A08005E9005 /* Core */,
 				10D0563329C8754E009CCF5D /* Assets.xcassets */,
 				10D0563529C8754E009CCF5D /* Preview Content */,
@@ -220,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1037226129DAAC8D00C12BF0 /* CoinDataService.swift in Sources */,
 				10F9E77129CF2DA6009FA83B /* CoinRowView.swift in Sources */,
 				10CEF70229D07BE300E54702 /* HomeViewModel.swift in Sources */,
 				10D0563229C8754A009CCF5D /* ContentView.swift in Sources */,

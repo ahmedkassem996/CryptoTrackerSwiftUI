@@ -44,11 +44,18 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            HomeView()
-                .navigationBarHidden(true)
+        Group {
+            NavigationView {
+                HomeView()
+                    .navigationBarHidden(true)
+            }
+            .environmentObject(dev.homeVM)
+            NavigationView {
+                HomeView()
+                    .navigationBarHidden(true)
+            }
+            .environmentObject(dev.homeVM)
         }
-        .environmentObject(dev.homeVM)
     }
 }
 
@@ -101,7 +108,7 @@ extension HomeView {
 
     }
     
-    private var columnsTitles: some: View {
+    private var columnsTitles: some View {
         HStack {
             Text("Coin")
             Spacer()
