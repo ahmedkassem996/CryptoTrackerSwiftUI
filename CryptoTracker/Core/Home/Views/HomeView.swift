@@ -22,7 +22,7 @@ struct HomeView: View {
             // content layer
             VStack {
                 homeHeader
-                
+                HomeStatsView(showPortifolio: $showportifolio)
                 SearchBarView(searchText: $vm.searchText)
                 
                 columnsTitles
